@@ -8,7 +8,7 @@ image:
   repository: 905418296320.dkr.ecr.ap-southeast-2.amazonaws.com/devops/my-springboot-app-using-helm
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: ""
 
 imagePullSecrets: []
 nameOverride: ""
